@@ -50,6 +50,7 @@ function teste() {
       }      
     }
 
+    // Apaga o resultado anterior caso exista
     if (document.querySelector('.estilo')){
       section.removeChild(counting);
     }
@@ -57,9 +58,6 @@ function teste() {
     counting.classList.add('estilo')
     counting.innerText = result;
     section.appendChild(counting);
-
-
-
   }
 }
 
